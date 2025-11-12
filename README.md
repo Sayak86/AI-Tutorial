@@ -1219,3 +1219,11 @@ This presentation provides business leaders with:
 - **Action plan** for getting started
 
 The 40-minute format balances depth with engagement, using real examples, business-friendly analogies, and actionable insights to transform AI from an abstract concept into a concrete business opportunity.
+
+---
+| **ML Type**           | **Learning Mode**              | **Banking Use Case**        | **Example Description**                                                                                                     |
+| --------------------- | ------------------------------ | --------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **Regression**        | Supervised                     | Credit Risk / Loan Pricing  | Predict a customer’s **loan default probability** or **credit limit** based on income, spending, and repayment behavior.    |
+| **Classification**    | Supervised                     | Fraud / Risk Categorization | Classify transactions as **fraudulent vs. legitimate** or label customers as **high, medium, or low risk** borrowers.       |
+| **Segmentation**      | Unsupervised                   | Customer Insights           | Group customers into **behavioral clusters** like “wealth builders,” “frequent traders,” or “savers” for targeted products. |
+| **Anomaly Detection** | Unsupervised / Semi-supervised | Fraud Monitoring            | Identify **unusual transactions** that deviate from a customer’s typical pattern to flag potential fraud.                   |
