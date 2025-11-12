@@ -1227,3 +1227,23 @@ The 40-minute format balances depth with engagement, using real examples, busine
 | **Classification**    | Supervised                     | Fraud / Risk Categorization | Classify transactions as **fraudulent vs. legitimate** or label customers as **high, medium, or low risk** borrowers.       |
 | **Segmentation**      | Unsupervised                   | Customer Insights           | Group customers into **behavioral clusters** like “wealth builders,” “frequent traders,” or “savers” for targeted products. |
 | **Anomaly Detection** | Unsupervised / Semi-supervised | Fraud Monitoring            | Identify **unusual transactions** that deviate from a customer’s typical pattern to flag potential fraud.                   |
+---
+ A biological neuron works as follows: it receives signals through its dendrites that
+ are either amplified or inhibited as they pass through the axons to the dendrites of
+ other neurons.
+ the network learns to inhibit or amplify the input signals to
+ perform a certain task, such as recognising an animal, speaking a word, identifying
+ a tree
+ <img width="664" height="335" alt="image" src="https://github.com/user-attachments/assets/2dafc309-ffe3-4895-b61b-cfafb00b4cc2" />
+ Basic Structure of Artificial Neural Networks
+ To summarise, the six main things that must be specified for any neural network are
+ as follows:
+ 1.
+ Input layer
+ 2. Output layer
+ 3. Hidden layers
+ 4. Network topology or structure
+ 5. Weights and biases
+ <img width="718" height="591" alt="image" src="https://github.com/user-attachments/assets/955f0cb2-4732-492e-8662-074447f72d6b" />
+
+
