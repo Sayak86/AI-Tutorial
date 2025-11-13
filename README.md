@@ -1245,5 +1245,41 @@ The 40-minute format balances depth with engagement, using real examples, busine
  4. Network topology or structure
  5. Weights and biases
  <img width="718" height="591" alt="image" src="https://github.com/user-attachments/assets/955f0cb2-4732-492e-8662-074447f72d6b" />
+ ---
+ “I’ve been a loyal customer for over 10 years. I recently upgraded to your platinum card, but my cashback was denied. I called support twice and still haven’t received help. Unless this is fixed soon, I’ll move my salary account elsewhere.”
+Now, suppose an older NLP model (RNN or LSTM) was asked:
 
+“Is this email positive, neutral, or negative?”
+By the time it reaches the end — ‘move my salary account elsewhere’ —
+it has mostly forgotten the early part: ‘loyal customer for over 10 years’.
+
+So it might misinterpret the tone or intent because it lost context from earlier sentences.
+
+Typical Output:
+
+“Tone: neutral, because the user mentioned loyalty and an upgrade.”
+
+It misses the emotional escalation — the actual threat to leave.
+Short memory — they could only retain a few tokens or words reliably.
+
+Sequential dependency — reading text step-by-step makes it hard to “look back” efficiently.
+
+No selective focus — they treated all words as equally important.
+What a Transformer Does Differently
+
+A transformer-based model with self-attention reads the entire text at once and assigns weights to what matters most:
+
+“cashback denied” → high importance
+
+“called support twice” → medium
+
+“move my salary account elsewhere” → highest
+
+“loyal customer” → context, but less relevant
+
+It captures the full emotional and logical arc — understanding the complaint as “negative with a history of loyalty and escalating frustration.”
+
+Transformer Output:
+
+“Tone: strongly negative. Long-term customer dissatisfied after repeated failed resolutions; risk of churn.”
 
